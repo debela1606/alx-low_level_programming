@@ -5,8 +5,8 @@
  * @j: takes in an integer
  * Return: i + j result
  */
-int add(int i,int j)
+int add(int a,int b)
 
 {
-return (i + j);
+return (a + b);
 }

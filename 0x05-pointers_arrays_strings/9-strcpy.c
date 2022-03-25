@@ -1,24 +1,18 @@
-#include<stdio.h>
-#include "main.h"
+#include "holberton.h"
+
 /**
- *_strcpy - update value.
- *@dest: value to be evaluate.
- *@src: value to be evaluate.
- *Return: not.
+ * *_strcpy - copies the string pointed to by src,
+ * including the terminating null byte
+ * @dest: copied string
+ * @src: string to be copied
+ * Return: pointer to new copied string
  */
 char *_strcpy(char *dest, char *src)
 {
-	int l = 0;
-	int x = 0;
+	char *ptr = dest;
 
-	while (*(src + l) != '\0')
-	{
-		l++;
-	}
-	for ( ; x < l ; x++)
-	{
-		dest[x] = src[x];
-	}
-	dest[l] = '\0';
-	return (dest);
+	while (*src)
+		*dest++ = *src++;
+	*dest = 0;
+	return (ptr);
 }

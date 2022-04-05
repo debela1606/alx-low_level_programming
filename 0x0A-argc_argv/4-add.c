@@ -22,8 +22,10 @@ int main(int argc, char *argv[])
 
                    }
 	}
-        printf("%i\n", sum);
-        
+	else
+	{
+	printf("%i\n", sum);
+	}
 	return (0);
 
 }

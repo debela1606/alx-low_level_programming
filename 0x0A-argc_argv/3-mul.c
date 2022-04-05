@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - a program that multiplies two numbers.
+ * main - Prints the product of two numbers passed to this program
  * @argc: The number of command-line arguments
  * @argv: The command-line arguments
  *
- * Return: 0 (always successfull)
+ * Return: 0 if successfull, otherwise 1
  */
 int main(int argc, char *argv[])
 {

@@ -1,7 +1,8 @@
 #include "main.h"
-#include <stdlib.h>
 #include <stdio.h>
-#include <ctype.h>
+#include <stdlib.h>
+#include <string.h>
+
 /**
  * _is_zero - determines if any number is zero
  * @argv: argument vector.
